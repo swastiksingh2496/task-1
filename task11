@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastik Singh | Personal Portfolio</title>
+    <style>
+        body {
+            background-color: #f2f4f7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333333;
+        }
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        header h1 {
+            font-size: 40px;
+            margin: 10px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #93c5fd;
+        }
+        main {
+            padding: 1px 0;
+        }
+        section {
+            background-color: white;
+            margin: 25px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #172554;
+            font-size: 28px;
+        }
+        h3 {
+            color: #2563eb;
+        }
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin: 12px;
+            font-size: 17px;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro h2 {
+            font-size: 30px;
+        }
+        .intro p {
+            font-size: 18px;
+        }
+        figure {
+            background-color: #eff6ff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        figure h2 {
+            margin: 5px;
+            color: #172554;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555555;
+        }
+        .skill {
+            background-color: #eff6ff;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
+        }
+        .project {
+            background-color: #f8fafc;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #2563eb;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th {
+            background-color: #172554;
+            color: white;
+            padding: 14px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 14px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #eff6ff;
+        }
+        tbody tr:hover {
+            background-color: #dbeafe;
+        }
+        .contact {
+            text-align: center;
+            background-color: #172554;
+            color: white;
+        }
+        .contact h2 {
+            color: white;
+        }
+        .contact p {
+            font-size: 17px;
+        }
+        .contact a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            color: white;
+        }
+        footer {
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Swastik Singh</h1>
+        <p>Student | Java | Python | DSA</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#timetable">Timetable</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <figure>
+                <h2>Abhay Swastik Singh</h2>
+                <figcaption>Computer Science Student at GLA University</figcaption>
+            </figure>
+            <h2>Hello, I'm Swastik Singh</h2>
+            <p>
+                I am a second-year student at GLA University
+                with a strong interest in programming and
+                Data Structures and Algorithms.
+            </p>
+            <p>
+                I know the basics of Java and Python and
+                I am continuously improving my coding
+                and problem-solving skills.
+            </p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Swastik Singh and I am from
+                Bharatpur, Rajathan.
+            </p>
+            <p>
+                I am currently studying at GLA University
+                and I am in my second year.
+            </p>
+            <p>
+                I enjoy coding, solving problems and
+                learning new technologies.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <article class="skill">
+                <h3>Java</h3>
+                <p>Basic Java programming and problem solving.</p>
+            </article>
+            <article class="skill">
+                <h3>Python</h3>
+                <p>Basic Python programming and concepts.</p>
+            </article>
+            <article class="skill">
+                <h3>DSA</h3>
+                <p>Good understanding and regular practice of DSA.</p>
+            </article>
+            <article class="skill">
+                <h3>HTML & CSS</h3>
+                <p>Creating and designing basic websites.</p>
+            </article>
+            <article class="skill">
+                <h3>Problem Solving</h3>
+                <p>Practicing coding problems to improve logical thinking.</p>
+            </article>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>GLA University</h3>
+                <p>Currently pursuing my undergraduate degree.</p>
+                <p><b>Year:</b> Second Year</p>
+                <p><b>Location:</b> Mathura, Uttar Pradesh</p>
+            </article>
+        </section>
+        <section>
+            <h2>Data Structures & Algorithms</h2>
+            <p>
+                DSA is one of my main areas of interest.
+                I regularly practice coding problems and
+                work on improving my problem-solving skills.
+            </p>
+            <ul>
+                <li>Arrays</li>
+                <li>Strings</li>
+                <li>Searching</li>
+                <li>Sorting</li>
+                <li>Basic Algorithms</li>
+            </ul>
+        </section>
+        <section id="timetable">
+            <h2>Academic Timetable</h2>
+            <p>My weekly academic timetable is given below.</p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>9:00 - 10:00</th>
+                            <th>10:00 - 11:00</th>
+                            <th>11:00 - 12:00</th>
+                            <th>12:00 - 1:00</th>
+                            <th>1:00 - 2:00</th>
+                            <th>2:00 - 3:00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Monday</b></td>
+                            <td>DSA</td>
+                            <td>Java</td>
+                            <td>Mathematics</td>
+                            <td>Break</td>
+                            <td>DBMS</td>
+                            <td>Web Development</td>
+                        </tr>
+                        <tr>
+                            <td><b>Tuesday</b></td>
+                            <td>Java</td>
+                            <td>DSA</td>
+                            <td>DBMS</td>
+                            <td>Break</td>
+                            <td>Mathematics</td>
+                            <td>Web Development</td>
+                        </tr>
+                        <tr>
+                            <td><b>Wednesday</b></td>
+                            <td>Mathematics</td>
+                            <td>DSA</td>
+                            <td>Java</td>
+                            <td>Break</td>
+                            <td>Web Development</td>
+                            <td>DBMS</td>
+                        </tr>
+                        <tr>
+                            <td><b>Thursday</b></td>
+                            <td>DBMS</td>
+                            <td>Java</td>
+                            <td>DSA</td>
+                            <td>Break</td>
+                            <td>Mathematics</td>
+                            <td>Web Development</td>
+                        </tr>
+                        <tr>
+                            <td><b>Friday</b></td>
+                            <td>DSA</td>
+                            <td>Web Development</td>
+                            <td>Mathematics</td>
+                            <td>Break</td>
+                            <td>Java</td>
+                            <td>DBMS</td>
+                        </tr>
+                        <tr>
+                            <td><b>Saturday</b></td>
+                            <td>Java</td>
+                            <td>DBMS</td>
+                            <td>DSA</td>
+                            <td>Break</td>
+                            <td>Project Work</td>
+                            <td>Library</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article class="project">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A personal portfolio website created
+                    using basic HTML and CSS.
+                </p>
+            </article>
+            <article class="project">
+                <h3>Java Programs</h3>
+                <p>
+                    Created different Java programs while
+                    learning programming and DSA.
+                </p>
+            </article>
+            <article class="project">
+                <h3>Python Programs</h3>
+                <p>
+                    Created basic Python programs to improve
+                    programming concepts.
+                </p>
+            </article>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Email:
+                <a href="mailto:swastiksinghiit@gmail.com">
+                    swastiksinghiit@gmaill.com
+                </a>
+            </p>
+            <p>
+                GitHub:
+                <a href="https://github.com/swastiksingh2496">
+                    abhayvishnoi9
+                </a>
+            </p>
+            <p>
+                LinkedIn:
+                <a href="">
+                    Swastik Singh
+                </a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Swastik Singh</p>
+        <p>Personal Portfolio | Academic Timetable</p>
+    </footer>
+</body>
+</html>
